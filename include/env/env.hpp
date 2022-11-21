@@ -6,11 +6,7 @@
 #include "utils/logger.hpp"
 
 /*** ADD INCLUDE HERE */
-#include <cmath>
 
-#include "env/env/bird.hpp"
-#include "env/env/pipe.hpp"
-#include "env/env/utils.hpp"
 
 namespace App { class Play; }
 
@@ -19,11 +15,6 @@ namespace MyEnv
     /*** DEC MODEL HERE */
     struct Model
     {
-        size_t mode = CONF::Mode::TEST;
-        size_t max_score = 0.f;
-
-        Agent bird;
-        Pipes pipes;
     };
 
     class Env : public Neat

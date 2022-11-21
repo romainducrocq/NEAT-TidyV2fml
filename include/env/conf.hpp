@@ -4,8 +4,8 @@
 /*** DEF DEFAULT ARGS HERE */
 /*
  * TRAIN
-   -g 100 -t 1000 -n 0 -p plt -s sav
- * EVAL
+   -g 300 -t 0 -n 0 -p plt -s sav
+* EVAL
    -e 10 -t 0 -n 0 -s sav
  * PLAY
    -e 10
@@ -28,7 +28,6 @@ struct DefaultConf{
 
     /*** DEC ACTIONS HERE */
     enum Action{
-        JUMP, NOOP
     };
 
     const static size_t INPUTS;
@@ -99,7 +98,7 @@ struct DefaultConf{
                 default :
                     std::cerr << "usage: apps/exec [-h] [-m MOD] [-g GEN] [-e EPO] [-t STP] [-n NOP] [-p PLT] [-s SAV] \n";
                     std::cerr << "\n";
-                    std::cerr << "NEAT FlappyBaboon                                                                    \n";
+                    std::cerr << "TidyV2fml                                                                            \n";
                     std::cerr << "\n";
                     std::cerr << "optional args:                                                                       \n";
                     std::cerr << "  -h      Print help and exit                                                        \n";
@@ -112,9 +111,6 @@ struct DefaultConf{
                     std::cerr << "  utils:                                                                             \n";
                     std::cerr << "  -p PLT  [train]       Set file name plot plt                                       \n";
                     std::cerr << "  -s SAV  [train, eval] Set file name save sav                                       \n";
-                    std::cerr << "  keys:                                                                              \n";
-                    std::cerr << "  Up      [play]        Jump                                                         \n";
-                    std::cerr << "  Space   [train, eval] Ai view                                                      \n";
 
                     return false;
 
@@ -177,7 +173,7 @@ std::string DefaultConf<T>::LOG_SAV = "";
 
 /*** DEF PARAMS HERE */
 template<typename T>
-const size_t DefaultConf<T>::INPUTS = 3;
+const size_t DefaultConf<T>::INPUTS = 2;
 template<typename T>
 const size_t DefaultConf<T>::OUTPUTS = 1;
 template<typename T>
@@ -215,11 +211,11 @@ const size_t DefaultConf<T>::POPULATION_SIZE = 150;
 template<typename T>
 const size_t DefaultConf<T>::MAX_POPULATION_SIZE = 0; // (0=false) -> const population size // &&
 template<typename T>
-const size_t DefaultConf<T>::POPULATION_GENS_INC = 200; // (0=false) -> const population size // &&
+const size_t DefaultConf<T>::POPULATION_GENS_INC = 150; // (0=false) -> const population size // &&
 template<typename T>
 const size_t DefaultConf<T>::POPULATION_INC_FREQ = 10; // (0=false) -> const population size
 template<typename T>
-const size_t DefaultConf<T>::ACT_REPEAT = 3;
+const size_t DefaultConf<T>::ACT_REPEAT = 0;
 template<typename T>
 const size_t DefaultConf<T>::MVG_AVG = 100;
 template<typename T>
@@ -228,19 +224,19 @@ template<typename T>
 const size_t DefaultConf<T>::SAV_FREQ = 1; // (0=false) -> save at end train only
 
 template<typename T>
-size_t DefaultConf<T>::GENERATIONS_TRAIN = 100; // (0=inf) -> infinite train
+size_t DefaultConf<T>::GENERATIONS_TRAIN = 300; // (0=inf) -> infinite train
 template<typename T>
 size_t DefaultConf<T>::EPOCHS_EVAL = 10; // (0=inf) -> infinite eval
 template<typename T>
-size_t DefaultConf<T>::MAX_STEP = 1000; // (0=inf) -> no step early stop
+size_t DefaultConf<T>::MAX_STEP = 0; // (0=inf) -> no step early stop
 template<typename T>
 size_t DefaultConf<T>::MAX_NOOP = 0; // (0=inf) -> no noop early stop
 
 /* SFML */
 template<typename T>
-const std::string DefaultConf<T>::NAME = "SFML";
+const std::string DefaultConf<T>::NAME = "";
 template<typename T>
-const size_t DefaultConf<T>::WIN_W = 360;
+const size_t DefaultConf<T>::WIN_W = 640;
 template<typename T>
 const size_t DefaultConf<T>::WIN_H = 640;
 template<typename T>
