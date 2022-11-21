@@ -1,5 +1,5 @@
 
-# [C++] FLAPPY BABOON with NEAT and TidyV2fml
+# [C++] APPLICATION with NEAT and TidyVolve
 
 - My very own NEAT framework in C++ (it's v2 with SFML) : https://github.com/romainducrocq/NEAT-TidyV2fml
   
@@ -168,13 +168,11 @@ MAX_NOOP             = 0
 -------------------------------TRAIN-------------------------------
 ```
 ```
-Time: 2640.68ms
 ```
 
 `log/plots/`  
 <span id="plot_demo">
   
-![Demo](log/plots/demo.png)
   
 </span>
 
@@ -182,72 +180,10 @@ Time: 2640.68ms
 -------------------------------EVAL--------------------------------
 ```
 ```
-EPOCH       : 1 / 10
-FITNESS     : 1055.19
-MVG AVG     : 1055.19
-SCORE       : 10 / 10
-MAX SCORE   : 10 / 10
-
-EPOCH       : 2 / 10
-FITNESS     : 1092.88
-MVG AVG     : 1074.04
-SCORE       : 10 / 10
-MAX SCORE   : 10 / 10
-
-EPOCH       : 3 / 10
-FITNESS     : 1097.73
-MVG AVG     : 1081.93
-SCORE       : 10 / 10
-MAX SCORE   : 10 / 10
-
-EPOCH       : 4 / 10
-FITNESS     : 1057.21
-MVG AVG     : 1075.75
-SCORE       : 10 / 10
-MAX SCORE   : 10 / 10
-
-EPOCH       : 5 / 10
-FITNESS     : 1075.61
-MVG AVG     : 1075.72
-SCORE       : 10 / 10
-MAX SCORE   : 10 / 10
-
-EPOCH       : 6 / 10
-FITNESS     : 1090.49
-MVG AVG     : 1078.19
-SCORE       : 10 / 10
-MAX SCORE   : 10 / 10
-
-EPOCH       : 7 / 10
-FITNESS     : 1075.7
-MVG AVG     : 1077.83
-SCORE       : 10 / 10
-MAX SCORE   : 10 / 10
-
-EPOCH       : 8 / 10
-FITNESS     : 1074.73
-MVG AVG     : 1077.44
-SCORE       : 10 / 10
-MAX SCORE   : 10 / 10
-
-EPOCH       : 9 / 10
-FITNESS     : 1059.58
-MVG AVG     : 1075.46
-SCORE       : 10 / 10
-MAX SCORE   : 10 / 10
-
-EPOCH       : 10 / 10
-FITNESS     : 1071.39
-MVG AVG     : 1075.05
-SCORE       : 10 / 10
-MAX SCORE   : 10 / 10
-
-Time: 201556ms
 ```
 
 <span id="gif_demo">
   
-![Demo](res/gif/demo.gif)
   
 </span>
 
