@@ -4,7 +4,10 @@
 ## > TidyV2fml : My very own NEAT framework in C++ (it's v2 with SFML) <
 
 - The NeuroEvolution of Augmenting Topologies (NEAT) User Page : http://www.cs.ucf.edu/~kstanley/neat.html
+- MarI/O - Machine Learning for Video Games (SethBling) : https://www.youtube.com/watch?v=qv6UVOQ0F44
+  
 - My very own NEAT framework in C++ (it's neat & tidy) : https://github.com/romainducrocq/NEAT-TidyVolve
+- Simple and Fast Multimedia Library (SFML) documentation : https://www.sfml-dev.org/documentation
 
 ****
 
@@ -103,7 +106,7 @@ $ ./run.sh -m eval -e 10 -t 0 -n 0 -s sav
 ```
 usage: apps/exec [-h] [-m MOD] [-g GEN] [-e EPO] [-t STP] [-n NOP] [-p PLT] [-s SAV]
 
-NEAT FlappyBaboon
+TidyV2fml
 
 optional args:
   -h      Print help and exit
