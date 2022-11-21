@@ -1,6 +1,6 @@
 <span id="header">
   
-# [C++] Topologies I Dunno Yet, eVolve + SFML
+# [C++] Topologies I Dunno Yet, eVolve &>SFML
 ## > TidyV2fml : My very own NEAT framework in C++ (it's v2 with SFML) <
 
 - My very own NEAT framework in C++ (it's neat & tidy) : https://github.com/romainducrocq/NEAT-TidyVolve
