@@ -1,5 +1,5 @@
 
-# [C++] APPLICATION with NEAT and TidyVolve
+# [C++] APPLICATION with NEAT and TidyV2fml
 
 - My very own NEAT framework in C++ (it's v2 with SFML) : https://github.com/romainducrocq/NEAT-TidyV2fml
   

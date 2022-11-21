@@ -8,7 +8,7 @@ while IFS="" read -r LINE || [ -n "$LINE" ]
 do
     if [[ "${LINE}" == *"header"* ]] ; then
         echo '' >> README.md
-        echo '# [C++] APPLICATION with NEAT and TidyVolve' >> README.md
+        echo '# [C++] APPLICATION with NEAT and TidyV2fml' >> README.md
         echo '' >> README.md
         echo '- My very own NEAT framework in C++ (it'"'"'s v2 with SFML) : https://github.com/romainducrocq/NEAT-TidyV2fml' >> README.md
     elif [[ "${LINE}" == *"how_to_run"* ]] ; then
