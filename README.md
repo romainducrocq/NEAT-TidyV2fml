@@ -1,7 +1,17 @@
+<span id="header">
+  
+# [C++] Topologies I Dunno Yet, eVolve + SFML
+## > TidyV2fml : My very own NEAT framework in C++ (it's v2 with SFML) <
 
-# [C++] APPLICATION with NEAT and TidyV2fml
+- The NeuroEvolution of Augmenting Topologies (NEAT) User Page : http://www.cs.ucf.edu/~kstanley/neat.html
+- My very own NEAT framework in C++ (it's neat & tidy) : https://github.com/romainducrocq/NEAT-TidyVolve
 
-- My very own NEAT framework in C++ (it's v2 with SFML) : https://github.com/romainducrocq/NEAT-TidyV2fml
+****
+
+## Examples
+
+- NEAT Flappy Bird : https://github.com/romainducrocq/NEAT-FlappyBaboon
+</span>
   
 ****
 
@@ -106,9 +116,6 @@ optional args:
   utils:
   -p PLT  [train]       Set file name plot plt
   -s SAV  [train, eval] Set file name save sav
-  keys:
-  Up      [play]        Jump
-  Space   [train, eval] Ai view
 ```
 
 ****
