@@ -5,7 +5,7 @@
 
 - The NeuroEvolution of Augmenting Topologies (NEAT) User Page : http://www.cs.ucf.edu/~kstanley/neat.html
 - MarI/O - Machine Learning for Video Games (SethBling) : https://www.youtube.com/watch?v=qv6UVOQ0F44 
-<hr style="clear:both;visibility:hidden;">
+<!---->
   
 - My very own NEAT framework in C++ (it's neat & tidy) : https://github.com/romainducrocq/NEAT-TidyVolve
 - Simple and Fast Multimedia Library (SFML) documentation : https://www.sfml-dev.org/documentation
