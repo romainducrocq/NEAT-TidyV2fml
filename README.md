@@ -4,7 +4,7 @@
 ## > TidyV2fml : My very own NEAT framework in C++ (it's v2 with SFML) <
 
 - My very own NEAT framework in C++ (it's neat & tidy) : https://github.com/romainducrocq/NEAT-TidyVolve
-- Simple and Fast Multimedia Library (SFML) documentation : https://www.sfml-dev.org/documentatio
+- Simple and Fast Multimedia Library (SFML) documentation : https://www.sfml-dev.org/documentation
 <!---->
   
 - The NeuroEvolution of Augmenting Topologies (NEAT) User Page : http://www.cs.ucf.edu/~kstanley/neat.html
