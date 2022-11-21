@@ -163,7 +163,7 @@ PLT_FREQ             = 0
 SAV_FREQ             = 1
 
 GENERATIONS_TRAIN    = 300
-EPOCHS_EVAL          = 10
+EPOCHS_EVAL          = 0
 MAX_STEP             = 0
 MAX_NOOP             = 0
 ```
