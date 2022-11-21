@@ -27,7 +27,7 @@ $ sudo cp -v lib/*.a /usr/lib
 ```
 $ ./build.sh -R
 $ ./compile.sh
-$ ./run.sh -m train -g 100 -t 1000 -n 0 -p plt -s sav
+$ ./run.sh -m train -g 300 -t 0 -n 0 -p plt -s sav
 $ ./run.sh -m eval -e 10 -t 0 -n 0 -s sav
 ```
 </span>
@@ -36,8 +36,8 @@ $ ./run.sh -m eval -e 10 -t 0 -n 0 -s sav
 `./train.sh [-D -R] <args>` or  
 <span id="how_to_train">
 ```
-* Debug   : $ ./train.sh -D -g 100 -t 1000 -n 0 -p plt -s sav
-* Release : $ ./train.sh -R -g 100 -t 1000 -n 0 -p plt -s sav
+* Debug   : $ ./train.sh -D -g 300 -t 0 -n 0 -p plt -s sav
+* Release : $ ./train.sh -R -g 300 -t 0 -n 0 -p plt -s sav
 ```
 </span>
 
@@ -120,7 +120,7 @@ optional args:
 ```
 * HYPERPARAMETER VALUES :
 
-INPUTS               = 3
+INPUTS               = 2
 OUTPUTS              = 1
 
 LIM_HIDDEN           = 1000000
@@ -143,17 +143,17 @@ CROSSOVER_PROB       = 0.75f
 STALE_SPECIES        = 15
 POPULATION_SIZE      = 150
 MAX_POPULATION_SIZE  = 0
-POPULATION_GENS_INC  = 200
+POPULATION_GENS_INC  = 150
 POPULATION_INC_FREQ  = 10
 
-ACT_REPEAT           = 3
+ACT_REPEAT           = 0
 MVG_AVG              = 100
 PLT_FREQ             = 0
 SAV_FREQ             = 1
 
-GENERATIONS_TRAIN    = 100
+GENERATIONS_TRAIN    = 300
 EPOCHS_EVAL          = 10
-MAX_STEP             = 1000
+MAX_STEP             = 0
 MAX_NOOP             = 0
 ```
 </span>
