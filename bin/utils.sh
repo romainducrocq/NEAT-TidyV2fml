@@ -1,5 +1,7 @@
 #!/bin/bash
 
+CONF_D="env/"
+
 funcs=(
 "assert"
 "set_build_type"
@@ -42,12 +44,12 @@ function get_tr_lead_args () {
 }
 
 function get_default_args () {
-    args=$(cat ../include/env/conf.hpp | grep "$1" -A 1 | sed -n 2p | sed -e 's/^[[:space:]]*//')
+    args=$(cat '../include/'"${CONF_D}"'conf.hpp' | grep "$1" -A 1 | sed -n 2p | sed -e 's/^[[:space:]]*//')
     echo "${args}"
 }
 
 function get_conf_param () {
-    param=$(cat ../include/env/conf.hpp | grep $(echo ':'"$1"' ') | tail -1 | cut -d'=' -f 2 | cut -d';' -f 1 | sed -e 's/^[[:space:]]*//')
+    param=$(cat '../include/'"${CONF_D}"'conf.hpp' | grep $(echo ':'"$1"' ') | tail -1 | cut -d'=' -f 2 | cut -d';' -f 1 | sed -e 's/^[[:space:]]*//')
     echo "${param}"
 }
 

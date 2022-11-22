@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt-get update
-sudo apt-get install g++ cmake valgrind libgtest-dev
+sudo apt-get install g++ cmake valgrind libgtest-dev libsfml-dev
 
 cd /usr/src/gtest
 sudo cmake CMakeLists.txt
