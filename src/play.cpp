@@ -52,8 +52,6 @@ void App::Play::init()
     }
 
     this->env.epoch = 0;
-
-    this->reset();
 }
 
 void App::Play::reset()
@@ -72,6 +70,11 @@ void App::Play::reset()
 
 void App::Play::step()
 {
+    if(this->env.ini){
+        this->reset();
+        this->env.ini = false;
+    }
+
     this->env.step_func();
 
     this->env.step_render_func();

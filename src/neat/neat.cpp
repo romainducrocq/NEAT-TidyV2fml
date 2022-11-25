@@ -38,8 +38,6 @@ void Neat::init(size_t mode)
         default:
             break;
     }
-
-    this->reset();
 }
 
 void Neat::obs()
@@ -133,6 +131,11 @@ void Neat::reset()
 
 void Neat::step()
 {
+    if(this->ini){
+        this->reset();
+        this->ini = false;
+    }
+
     this->step_func();
 
     this->step_render();

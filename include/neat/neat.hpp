@@ -115,6 +115,7 @@ class Neat
         size_t max_step = CONF::MAX_STEP;
         size_t mvg_avg_max = CONF::MVG_AVG;
 
+        bool ini = true;
         size_t steps = 0;
         size_t epoch = 0;
         size_t generation = 0;
