@@ -2,7 +2,6 @@
 
 App::Play::Play()
 {
-    this->run();
 }
 
 void App::Play::run()

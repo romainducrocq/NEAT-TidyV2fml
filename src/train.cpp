@@ -2,7 +2,6 @@
 
 App::Train::Train()
 {
-    this->run();
 }
 
 void App::Train::run()
@@ -21,7 +20,7 @@ void App::Train::run()
 
     std::thread th2([&]() {
         if(! CONF::LOG_SAV.empty()) {
-            App::Eval::EVAL();
+            App::Eval::EVAL().run();
         }
     });
 

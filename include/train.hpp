@@ -18,12 +18,13 @@ namespace App
             MyEnv::Env env;
 
         private:
-            void run();
-
             void setup();
             bool loop();
 
             Train();
+
+        public:
+            void run();
 
         public:
             Train(const Train& other) = delete;

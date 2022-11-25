@@ -17,8 +17,6 @@ namespace App
             MyEnv::Env env;
 
         private:
-            void run();
-
             void ev_setup() override;
             void draw_setup() override;
             void draw_loop() override;
@@ -27,6 +25,9 @@ namespace App
             bool loop() override;
 
             Eval();
+
+        public:
+            void run();
 
         public:
             Eval(const Eval& other) = delete;

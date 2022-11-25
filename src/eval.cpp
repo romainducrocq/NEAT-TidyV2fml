@@ -2,7 +2,6 @@
 
 App::Eval::Eval()
 {
-    this->run();
 }
 
 void App::Eval::run()
