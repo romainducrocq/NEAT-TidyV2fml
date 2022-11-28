@@ -1,5 +1,5 @@
-#ifndef _SFML_KEYBOARD_MAP_HPP
-#define _SFML_KEYBOARD_MAP_HPP
+#ifndef _SFML_SF_MAP_HPP
+#define _SFML_SF_MAP_HPP
 
 #include <SFML/Graphics.hpp>
 #include <unordered_map>
@@ -110,6 +110,32 @@ namespace sfev
         {"F15", sf::Keyboard::F15},
         {"Pause", sf::Keyboard::Pause},
         {"KeyCount", sf::Keyboard::KeyCount}
+    };
+
+    const std::unordered_map<std::string, sf::Event::EventType> evmap = {
+        {"Closed", sf::Event::Closed},
+        {"Resized", sf::Event::Resized},
+        {"LostFocus", sf::Event::LostFocus},
+        {"GainedFocus", sf::Event::GainedFocus},
+        {"TextEntered", sf::Event::TextEntered},
+        {"KeyPressed", sf::Event::KeyPressed},
+        {"KeyReleased", sf::Event::KeyReleased},
+        {"MouseWheelMoved", sf::Event::MouseWheelMoved},
+        {"MouseWheelScrolled", sf::Event::MouseWheelScrolled},
+        {"MouseButtonPressed", sf::Event::MouseButtonPressed},
+        {"MouseButtonReleased", sf::Event::MouseButtonReleased},
+        {"MouseMoved", sf::Event::MouseMoved},
+        {"MouseEntered", sf::Event::MouseEntered},
+        {"MouseLeft", sf::Event::MouseLeft},
+        {"JoystickButtonPressed", sf::Event::JoystickButtonPressed},
+        {"JoystickButtonReleased", sf::Event::JoystickButtonReleased},
+        {"JoystickMoved", sf::Event::JoystickMoved},
+        {"JoystickConnected", sf::Event::JoystickConnected},
+        {"JoystickDisconnected", sf::Event::JoystickDisconnected},
+        {"TouchBegan", sf::Event::TouchBegan},
+        {"TouchMoved", sf::Event::TouchMoved},
+        {"TouchEnded", sf::Event::TouchEnded},
+        {"SensorChanged", sf::Event::SensorChanged}
     };
 }
 
