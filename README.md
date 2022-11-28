@@ -253,14 +253,15 @@ MAX_NOOP             = 0
 ### 5. Parameters
 
 `include/env/conf.hpp`
-- 5.1. declare _actions_ enum
-- 5.2. declare _optional_ parameters
-- 5.3. define _argv cmds_ commands
-- 5.4. define _help error_ message
-- 5.5. define _optional_ commands
-- 5.6. define _params_ parameters
-- 5.7. define _optional_ parameters
-- 5.8. define _default_ arguments
+- 5.1. add include
+- 5.2. declare _actions_ enum
+- 5.3. declare _optional_ parameters
+- 5.4. define _argv cmds_ commands
+- 5.5. define _help error_ message
+- 5.6. define _optional_ commands
+- 5.7. define _params_ parameters
+- 5.8. define _optional_ parameters
+- 5.9. define _default_ arguments
 
 ### 6. Readme & license
 

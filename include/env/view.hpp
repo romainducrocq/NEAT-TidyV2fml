@@ -10,6 +10,7 @@
 #include "env/env.hpp"
 
 #include "sfev/sfevmngr.hpp"
+#include "sfev/kbmap.hpp"
 
 #include "utils/logger.hpp"
 
