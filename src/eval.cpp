@@ -1,9 +1,5 @@
 #include "eval.hpp"
 
-App::Eval::Eval()
-{
-}
-
 void App::Eval::run()
 {
     Timer timer;

@@ -1,9 +1,5 @@
 #include "train.hpp"
 
-App::Train::Train()
-{
-}
-
 void App::Train::run()
 {
     Timer timer;

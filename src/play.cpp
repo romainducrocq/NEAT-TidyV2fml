@@ -1,9 +1,5 @@
 #include "play.hpp"
 
-App::Play::Play()
-{
-}
-
 void App::Play::run()
 {
     Timer timer;

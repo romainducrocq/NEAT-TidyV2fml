@@ -36,7 +36,7 @@ namespace App
             void setup() override;
             bool loop() override;
 
-            Play();
+            Play() = default;
 
         public:
             void run();

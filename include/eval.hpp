@@ -24,7 +24,7 @@ namespace App
             void setup() override;
             bool loop() override;
 
-            Eval();
+            Eval() = default;
 
         public:
             void run();
