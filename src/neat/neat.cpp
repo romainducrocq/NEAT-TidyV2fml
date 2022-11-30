@@ -12,16 +12,6 @@ void Neat::init(size_t mode)
 
     this->mvg_avg = MovingAverage(this->mvg_avg_max);
 
-    this->mdp.obs.clear();
-    for(size_t i = 0; i < this->inputs; i++){
-        this->mdp.obs.push_back(0.f);
-    }
-
-    this->mdp.act.clear();
-    for(size_t i = 0; i < this->outputs; i++){
-        this->mdp.act.push_back(0.f);
-    }
-
     this->epoch = 0;
     this->generation = 0;
     this->max_fitness = 0.f;

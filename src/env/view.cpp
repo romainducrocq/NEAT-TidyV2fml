@@ -6,7 +6,7 @@ void View::EventHandler::ev_setup(sfev::EventManager& /*ev_manager*/, sf::Render
 }
 
 /*** DEF ACTION HANDLER HERE */
-void View::EventHandler::get_action(std::vector<float>& /*act*/)
+void View::EventHandler::get_action(std::array<float, CONF::OUTPUTS>& /*act*/)
 {
 }
 

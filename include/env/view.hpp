@@ -1,16 +1,16 @@
 #ifndef _ENV_VIEW_HPP
 #define _ENV_VIEW_HPP
 
-#include <vector>
+#include <array>
 
 #include <SFML/Graphics.hpp>
+
+#include <sfev/sfevmngr.hpp>
+#include <sfev/sfmap.hpp>
 
 #include "env/conf.hpp"
 
 #include "env/env.hpp"
-
-#include "sfev/sfevmngr.hpp"
-#include "sfev/sfmap.hpp"
 
 #include "utils/logger.hpp"
 
@@ -35,7 +35,7 @@ namespace View
 
         public:
             void ev_setup(sfev::EventManager& ev_manager, sf::RenderWindow& window);
-            void get_action(std::vector<float>& act);
+            void get_action(std::array<float, CONF::OUTPUTS>& act);
 
             inline const EventState& get_ev_state() const
             {

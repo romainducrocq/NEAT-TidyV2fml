@@ -5,6 +5,7 @@
 #include <cstring>
 #include <sstream>
 
+#include <array>
 #include <vector>
 #include <unordered_map>
 #include <utility>
@@ -29,8 +30,8 @@ class Neat
     private:
         struct Mdp
         {
-            std::vector<float> obs;
-            std::vector<float> act;
+            std::array<float, CONF::INPUTS> obs = { 0.f };
+            std::array<float, CONF::OUTPUTS> act = { 0.f };
             bool done = false;
             float fitness = 0.f;
         };

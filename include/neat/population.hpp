@@ -4,6 +4,7 @@
 #include <cstdlib>
 #include <cmath>
 
+#include <array>
 #include <vector>
 
 #include <functional>
@@ -99,7 +100,7 @@ namespace Population
 
             void init();
 
-            void eval_curr_genome(const std::vector<float>& obs, std::vector<float>& act);
+            void eval_curr_genome(const std::array<float, CONF::INPUTS>& obs, std::array<float, CONF::OUTPUTS>& act);
 
             bool fitness_pass();
             void next_genome(Genotype::Genome& best);

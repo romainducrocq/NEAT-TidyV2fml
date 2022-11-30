@@ -42,11 +42,6 @@ void App::Play::init()
 
     this->env.mvg_avg = MovingAverage(this->env.mvg_avg_max);
 
-    this->env.mdp.act.clear();
-    for(size_t i = 0; i < this->env.outputs; i++){
-        this->env.mdp.act.push_back(0.f);
-    }
-
     this->env.epoch = 0;
 }
 

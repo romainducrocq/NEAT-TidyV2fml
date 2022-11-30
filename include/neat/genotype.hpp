@@ -6,6 +6,7 @@
 #include <cmath>
 #include <cstring>
 
+#include <array>
 #include <vector>
 #include <tuple>
 #include <map>
@@ -152,7 +153,7 @@ namespace Genotype
             void copy_genome(const Genotype::Genome& other);
 
             void ctor_network();
-            void eval_network(const std::vector<float>& obs, std::vector<float>& act);
+            void eval_network(const std::array<float, CONF::INPUTS>& obs, std::array<float, CONF::OUTPUTS>& act);
 
             void mutate(size_t& innovation);
 
