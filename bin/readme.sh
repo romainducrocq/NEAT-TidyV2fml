@@ -10,7 +10,13 @@ do
         echo '' >> README.md
         echo '# [C++] APPLICATION with NEAT and TidyV2fml' >> README.md
         echo '' >> README.md
-        echo '- My very own NEAT framework in C++ (it'"'"'s v2 with SFML) : https://github.com/romainducrocq/NEAT-TidyV2fml' >> README.md
+        echo '- My very own NEAT framework in C++ (it'"'"'s v2 with SFML) : [\[v1. BASE\]](https://github.com/romainducrocq/NEAT-TidyVolve) - [\[v2. SFML\]](https://github.com/romainducrocq/NEAT-TidyV2fml) - [\[v3. EMUL\]](https://github.com/romainducrocq/NEAT-TidyV3mul)' >> README.md
+        echo '<!---->' >> README.md
+        echo '  ' >> README.md
+        echo '- The NeuroEvolution of Augmenting Topologies (NEAT) User Page : http://www.cs.ucf.edu/~kstanley/neat.html' >> README.md
+        echo '- Simple and Fast Multimedia Library (SFML) documentation : https://www.sfml-dev.org/documentation' >> README.md
+        echo '<!---->' >> README.md
+        echo '  ' >> README.md
     elif [[ "${LINE}" == *"how_to_run"* ]] ; then
         echo "${LINE}" >> README.md
         echo '```' >> README.md
