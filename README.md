@@ -3,12 +3,11 @@
 # [C++] Topologies I Dunno Yet, eVolve &>SFML
 ## > TidyV2fml : My very own NEAT framework in C++ (it's v2 with SFML) <
 
-- My very own NEAT framework in C++ (it's neat & tidy) : https://github.com/romainducrocq/NEAT-TidyVolve
-- Simple and Fast Multimedia Library (SFML) documentation : https://www.sfml-dev.org/documentation
+- My very own NEAT framework in C++ (it's v2 with SFML) : [\[v1. BASE\]](https://github.com/romainducrocq/NEAT-TidyVolve) - [\[v2. SFML\]](https://github.com/romainducrocq/NEAT-TidyV2fml) - [\[v3. EMUL\]](https://github.com/romainducrocq/NEAT-TidyV3mul)
 <!---->
   
 - The NeuroEvolution of Augmenting Topologies (NEAT) User Page : http://www.cs.ucf.edu/~kstanley/neat.html
-- MarI/O - Machine Learning for Video Games (SethBling) : https://www.youtube.com/watch?v=qv6UVOQ0F44 
+- Simple and Fast Multimedia Library (SFML) documentation : https://www.sfml-dev.org/documentation 
 
 ****
 
