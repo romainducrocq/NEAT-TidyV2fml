@@ -1,7 +1,7 @@
 <span id="header">
   
 # [C++] Topologies I Dunno Yet, eVolve &>SFML
-## > TidyV2fml : My very own NEAT framework in C++ (it's v2 with SFML) <
+## > TidyV2fml : My very own NEAT framework in C++ (it's v2 with SFML)
 
 - My very own NEAT framework in C++ (it's v2 with SFML) : [\[v1. BASE\]](https://github.com/romainducrocq/NEAT-TidyVolve) - [\[v2. SFML\]](https://github.com/romainducrocq/NEAT-TidyV2fml) - [\[v3. EMUL\]](https://github.com/romainducrocq/NEAT-TidyV3mul)
 <!---->
