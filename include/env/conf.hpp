@@ -55,7 +55,7 @@ struct DefaultConf{
     const static float CROSSOVER_PROB;
     const static size_t STALE_SPECIES;
     const static size_t POPULATION_SIZE;
-    const static size_t MAX_POPULATION_SIZE;
+    const static size_t END_POPULATION_SIZE;
     const static size_t POPULATION_GENS_INC;
     const static size_t POPULATION_INC_FREQ;
 
@@ -212,7 +212,7 @@ const size_t DefaultConf<T>::STALE_SPECIES = 15;
 template<typename T>
 const size_t DefaultConf<T>::POPULATION_SIZE = 150;
 template<typename T>
-const size_t DefaultConf<T>::MAX_POPULATION_SIZE = 0; // (0=false) -> const population size // &&
+const size_t DefaultConf<T>::END_POPULATION_SIZE = 0; // (0=false) -> const population size // &&
 template<typename T>
 const size_t DefaultConf<T>::POPULATION_GENS_INC = 150; // (0=false) -> const population size // &&
 template<typename T>

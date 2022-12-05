@@ -153,10 +153,10 @@ void Population::Pool::new_generation()
     this->pop_stale_species();
     this->pop_weak_species();
 
-    if(this->max_population_size && this->population_gens_inc && this->population_inc_freq &&
+    if(this->end_population_size && this->population_gens_inc && this->population_inc_freq &&
        this->generation > 0 && (this->generation+1) % this->population_inc_freq == 0){
         this->population_size = static_cast<size_t>(this->interp_func(
-            this->generation+1, 0.f, this->population_gens_inc, this->min_population_size, this->max_population_size));
+            this->generation+1, 0.f, this->population_gens_inc, this->start_population_size, this->end_population_size));
     }
 
     std::vector<Genotype::Genome> children;

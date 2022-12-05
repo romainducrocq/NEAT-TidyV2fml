@@ -75,8 +75,8 @@ namespace Population
             size_t stale_species = CONF::STALE_SPECIES;
             size_t population_size = CONF::POPULATION_SIZE;
 
-            size_t min_population_size = CONF::POPULATION_SIZE;
-            size_t max_population_size = CONF::MAX_POPULATION_SIZE;
+            size_t start_population_size = CONF::POPULATION_SIZE;
+            size_t end_population_size = CONF::END_POPULATION_SIZE;
             size_t population_gens_inc = CONF::POPULATION_GENS_INC;
             size_t population_inc_freq = CONF::POPULATION_INC_FREQ;
             float(*interp_func)(float, float, float, float, float) = Population::Pool::Interp::linear;

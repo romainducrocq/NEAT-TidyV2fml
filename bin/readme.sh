@@ -81,7 +81,7 @@ do
         echo 'CROSSOVER_PROB       = '"$(get_conf_param CROSSOVER_PROB)" >> README.md
         echo 'STALE_SPECIES        = '"$(get_conf_param STALE_SPECIES)" >> README.md
         echo 'POPULATION_SIZE      = '"$(get_conf_param POPULATION_SIZE)" >> README.md
-        echo 'MAX_POPULATION_SIZE  = '"$(get_conf_param MAX_POPULATION_SIZE)" >> README.md
+        echo 'END_POPULATION_SIZE  = '"$(get_conf_param END_POPULATION_SIZE)" >> README.md
         echo 'POPULATION_GENS_INC  = '"$(get_conf_param POPULATION_GENS_INC)" >> README.md
         echo 'POPULATION_INC_FREQ  = '"$(get_conf_param POPULATION_INC_FREQ)" >> README.md
         echo '' >> README.md
