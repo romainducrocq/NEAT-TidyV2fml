@@ -157,7 +157,7 @@ POPULATION_GENS_INC  = 150
 POPULATION_INC_FREQ  = 10
 
 ACT_REPEAT           = 0
-MVG_AVG              = 100
+MVG_AVG              = 150
 PLT_FREQ             = 0
 SAV_FREQ             = 1
 
