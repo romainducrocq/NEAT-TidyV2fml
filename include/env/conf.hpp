@@ -4,7 +4,7 @@
 /*** DEF DEFAULT ARGS HERE */
 /*
  * TRAIN
-   -g 300 -t 0 -n 0 -p plt -s sav
+   -g 150 -t 0 -n 0 -p plt -s sav
 * EVAL
    -e 10 -t 0 -n 0 -s sav
  * PLAY
@@ -227,7 +227,7 @@ template<typename T>
 const size_t DefaultConf<T>::SAV_FREQ = 1; // (0=false) -> save at end train only
 
 template<typename T>
-size_t DefaultConf<T>::GENERATIONS_TRAIN = 300; // (0=inf) -> infinite train
+size_t DefaultConf<T>::GENERATIONS_TRAIN = 150; // (0=inf) -> infinite train
 template<typename T>
 size_t DefaultConf<T>::EPOCHS_EVAL = 0; // (0=inf) -> infinite eval
 template<typename T>
