@@ -20,18 +20,18 @@
 
 ## How to _
 
-`cd bin`
+`cd bin/`
 
 ### Install
-`./make.sh` or  
+`sudo ./make.sh` or  
 ```
-$ sudo apt-get update
-$ sudo apt-get install g++ cmake valgrind libgtest-dev libsfml-dev
+sudo apt-get update
+sudo apt-get install g++ cmake valgrind libgtest-dev libsfml-dev
 
-$ cd /usr/src/gtest
-$ sudo cmake CMakeLists.txt
-$ sudo make
-$ sudo cp -v lib/*.a /usr/lib
+cd /usr/src/gtest
+sudo cmake CMakeLists.txt
+sudo make
+sudo cp -v lib/*.a /usr/lib
 ```
 
 ### Run
@@ -172,7 +172,7 @@ MAX_NOOP             = 0
 
 ## Demo
 
-`cd bin && ./app.sh`
+`cd bin/ && ./app.sh`
 
 ```
 -------------------------------TRAIN-------------------------------
